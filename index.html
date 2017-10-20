@@ -1,110 +1,236 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Hudson Pereira - Desenvolvedor Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Hudson Pereira - Programador Fullstack</title>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main.css">
-    <link rel="shortcut icon" href="favicon.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="shortcut icon" href="favicon.png">
 </head>
+
 <body>
-    <div class="container text-center mt-4">
-        <div id="profile-img">
-            <img src="assets/img/hudson.png" alt="Hudson Pereira" class="animated bounce">
-        </div>
+  <!-- NAV -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="/">Hudson Pereira</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+        aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://github.com/hudsonpereira">
+              <i class="fa fa-github d-none d-lg-inline"></i>
+              <span class="d-lg-none">Github</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://www.linkedin.com/in/pereirahudson/">
+              <i class="fa fa-linkedin d-none d-lg-inline"></i>
+              <span class="d-lg-none">LinkedIn</span>
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
+  </nav>
+  <!-- /NAV -->
 
-    <div class="container text-center mt-4">
-        <div class="center">
-            <h1>Hudson Pereira</h1>
-
-            <p class="lead">Fundador da SharkLabs. Desenvolvedor de websites e aplicativos.</p>
-        </div>
-        <div class="card animated fadeInLeft">
-            <h3 class="card-header">Projetos</h3>
-            <div class="card-body">
-                <h4 class="card-title">Projetos que trabalhei</h4>
-
-                <div class="card-text">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <a href="http://bauruvagas.com.br" target="_blank">
-                                <img src="assets/img/projects/bauruvagas.png" class="img-fluid" alt="Bauru Vagas">
-                            </a>
-                        </div>
-                        <div class="col-md-3">
-                            <a href="https://www.youtube.com/channel/UCXd0ghBIEb24X-XkR-ltNfQ" target="_blank">
-                                <img src="assets/img/projects/webdicas.png" class="img-fluid" alt="Web Dicas">
-                            </a>
-                        </div>
-                    </div>
-                </div>
+  <!-- HEADER -->
+  <header>
+    <div class="container mt-4">
+      <div class="card bg-light">
+        <div class="card-body">
+          <div class="row">
+            <div class="col-md-3 text-center">
+              <img src="assets/img/hudson.png" alt="Hudson Pereira" class="img-fluid">
             </div>
-        </div>
+            <div class="col-md-9 text-center text-md-left">
+              <h1>Hudson Pereira</h1>
+              <p clas="lead">Programador Fullstack</p>
 
-        <div class="card animated fadeInLeft tenologies">
-            <h3 class="card-header">Tecnologias</h3>
-            <div class="card-body">
-                <h4 class="card-title">Estas são algumas tecnologias que trabalho:</h4>
-                <div class="card-text">
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/html.png" class="img-fluid" alt="HTML 5">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/css.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/laravel.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/wordpress.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/react.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/js.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/android.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/ios.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/git.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/aws.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/mysql.png" class="img-fluid" alt="">
-                        </div>
-                        <div class="col-md-3">
-                            <img src="assets/img/tecnologies/nginx.png" class="img-fluid" alt="">
-                        </div>
-                    </div>
-
-                </div>
+              <table class="table table-responsive ">
+                <tr>
+                  <th>
+                    <i class="fa fa-home"></i>
+                    <span class="d-none d-md-inline">Endereço</span>
+                  </th>
+                  <td>Bauru, São Paulo</td>
+                </tr>
+                <tr>
+                  <th>
+                    <i class="fa fa-coffee"></i>
+                    <span class="d-none d-md-inline">Blog</span>
+                  </th>
+                  <td>
+                    <a href="https://hudsonpereira.github.io/blog" target="_blank">https://hudsonpereira.github.io/blog</a>
+                  </td>
+                </tr>
+                <tr>
+                  <th>
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="d-none d-md-inline">E-mail</span>
+                  </th>
+                  <td>
+                    <a href="mailto:hudson.webdeveloper@gmail.com">hudson.webdeveloper@gmail.com</a>
+                  </td>
+                </tr>
+              </table>
             </div>
+          </div>
         </div>
-
-        <footer>
-            <div class="container">
-                <a href="mailto:hudson.byte@gmail.com" class="btn btn-primary"><i class="fa fa-envelope fa-lg"></i> Me mande um E-Mail!</a>
-            </div>
-        </footer>
+      </div>
     </div>
+  </header>
+  <!-- /HEADER -->
+
+  <!-- BODY -->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-8">
+        <div class="card">
+          <div class="card-header">
+            Experiência
+          </div>
+          <div class="card-body">
+
+            <div>
+              <p class="lead font-weight-bold">Triata - Programador PHP
+                <small class="text-muted">2013 - 2014</small>
+              </p>
+
+              <ul>
+                <li>Customização de produto</li>
+                <li>Ajuda em especificação de implementações</li>
+              </ul>
+            </div>
+
+            <div class="mt-4">
+              <p class="lead font-weight-bold">MobileInn - Programador PHP
+                <small class="text-muted">2014 - 2015</small>
+              </p>
+
+              <ul>
+                <li>Construção de backend do aplicativo HiTech (aplicativo para gerenciar escolas)</li>
+              </ul>
+            </div>
+
+            <div class="mt-4">
+              <p class="lead font-weight-bold">New Way - Programador Fullstack
+                <small class="text-muted">2015 - 2016</small>
+              </p>
+
+              <ul>
+                <li>Desenvolvimento do sistema Mktzap</li>
+              </ul>
+            </div>
+
+            <div class="mt-4">
+              <p class="lead font-weight-bold">Autonomo - Programador Fullstack
+                <small class="text-muted">2016 - 2017</small>
+              </p>
+
+              <ul>
+                <li>Construção de aplicativos híbridos</li>
+                <li>Manutenção e implementação de backend usando PHP</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="card mt-4">
+          <div class="card-header">
+            Educação
+          </div>
+          <div class="card-body">
+            <div>
+              <p class="lead font-weight-bold">ETEC Bauru - Curso Técnico de Informática
+                <small class="text-muted">2009 - 2010</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- ASIDE -->
+      <aside class="col-md-4">
+        <div class="card mt-3 mt-md-0">
+          <div class="card-header">
+            Conhecimentos Técnicos
+          </div>
+          <div class="card-body">
+            <div class="badge badge-primary p-2 m-1">PHP</div>
+            <div class="badge badge-primary p-2 m-1">MySQL</div>
+            <div class="badge badge-primary p-2 m-1">Laravel</div>
+            <div class="badge badge-primary p-2 m-1">HTML5</div>
+            <div class="badge badge-primary p-2 m-1">CSS3</div>
+            <div class="badge badge-primary p-2 m-1">Javascript</div>
+            <div class="badge badge-primary p-2 m-1">Webpack</div>
+            <div class="badge badge-primary p-2 m-1">ReactJS</div>
+            <div class="badge badge-primary p-2 m-1">AngularJS</div>
+            <div class="badge badge-primary p-2 m-1">Github</div>
+            <div class="badge badge-primary p-2 m-1">Laravel</div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-header">
+            Interesses em
+            <span class="text-primary">#Dev</span>
+          </div>
+          <div class="card-body">
+            <div class="badge badge-primary p-2 m-1">PWA</div>
+            <div class="badge badge-primary p-2 m-1">Coding Standards</div>
+            <div class="badge badge-primary p-2 m-1">Agile</div>
+            <div class="badge badge-primary p-2 m-1">Mobile First</div>
+            <div class="badge badge-primary p-2 m-1">UX</div>
+            <div class="badge badge-primary p-2 m-1">Performance</div>
+            <div class="badge badge-primary p-2 m-1">MVP</div>
+          </div>
+        </div>
+        <div class="card mt-3">
+          <div class="card-header">
+            Interesses pessoais
+          </div>
+          <div class="card-body">
+            <div class="badge badge-primary p-2 m-1">Música</div>
+            <div class="badge badge-primary p-2 m-1">Vida saudável</div>
+            <div class="badge badge-primary p-2 m-1">Artes marciais</div>
+            <div class="badge badge-primary p-2 m-1">Workflow</div>
+            <div class="badge badge-primary p-2 m-1">Ferramentas úteis</div>
+            <div class="badge badge-primary p-2 m-1">Life hacking</div>
+            <div class="badge badge-primary p-2 m-1">Sistemas de RPG (jogo)</div>
+          </div>
+        </div>
+      </aside>
+      <!-- /ASIDE -->
+    </div>
+  </div>
+  <!-- /BODY -->
+
+  <footer class="footer mt-4">
+    <div class="container">
+      <span class="text-muted">Desenvolvido com
+        <i class="fa fa-heart text-danger"></i> por
+        <a href="/">Hudson</a>.</span>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
+    crossorigin="anonymous"></script>
+  <script src="assets/js/main.js"></script>
 </body>
+
 </html>
